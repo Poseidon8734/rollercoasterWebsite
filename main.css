@@ -9,6 +9,7 @@
 .nav{
 	text-align: center;
 	width: 33.3%;
+	display: inline;
 	float: left;
 	list-style: none;
 }
