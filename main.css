@@ -9,7 +9,7 @@
 .nav{
 	text-align: center;
 	width: 33.3%;
-	float left;
+	float: left;
 	list-style: none;
 }
 .barType{
