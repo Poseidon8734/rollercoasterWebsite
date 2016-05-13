@@ -11,7 +11,8 @@
 	margin-top: 15px;
 }
 .begin{
-	margin-top:0px;
+	margin-top:15px;
+	padding-top:15px;
 }
 .navbar{
 
@@ -30,7 +31,7 @@
 	font-weight: bold ;
 }
 .nav1:hover,.nav1:focus,.nav1:active{
-	color:#4C5E86;
+	color:#ffffffs;
 	background-color:#011031;
 }
 .nav1:visited{
@@ -49,7 +50,10 @@
 }
 
 body{
-background-color: #8F9CB9;
+background-color: #C6E2FF;
 color:#1F325E;
+}
+.homepage{
+	margin-top:2%;
 }
 
