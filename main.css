@@ -3,7 +3,7 @@
 }
 .bodyMain{
 	width: 100%;
-	max-width: 960px;
+	max-width: 1060px;
 	margin: 0 auto;
 }
 .center{
@@ -47,10 +47,7 @@
 .image{
 	width= "200"; 
 }
-.topofpage{
-	position:relative;
-	top:15px;
-}
+
 body{
 background-color: #8F9CB9;
 color:#1F325E;
