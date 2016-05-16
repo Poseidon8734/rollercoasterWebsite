@@ -21,11 +21,7 @@
 	list-style: none;
 }
 .nav1{ /* li a */
-<<<<<<< HEAD
-	background-color:#626c76;
-=======
 	background-color:#6F9196;
->>>>>>> origin/master
 	display:block;
 	border: 1px solid #6F9196;
 	padding: 10px 0;
@@ -60,4 +56,3 @@ color:#40595B;
 .homepage{
 	margin-top:2%;
 }
-
