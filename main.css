@@ -1,17 +1,17 @@
 *{
 	font-family: Tahoma, Geneva, sans-serif;
+	color: #2b2b2b;
 }
 .bodyMain{
 	width: 100%;
 	max-width: 1060px;
 	margin: 0 auto;
+	
 }
 .center{
 	text-align: center;
-	margin-top: 15px;
 }
 .begin{
-	margin-top:15px;
 	padding-top:15px;
 }
 .navbar{
@@ -29,13 +29,14 @@
 	text-decoration: none;
 	color:#0C1A1C;
 	font-weight: bold ;
+	margin-top:30px;
 }
 .nav1:hover,.nav1:focus,.nav1:active{
 	color:#A1C9CC;
 	background-color:#49595B;
 }
 .nav1:visited{
-	
+	color:#002167;
 }
 .nav{ /* li */
 	text-align: center;
@@ -54,5 +55,11 @@ background-color: #A1C9CC;
 color:#40595B;
 }
 .homepage{
-	margin-top:2%;
+
+}.text{
+padding-top: 100px;
+padding-bottom: 50px;
+margin-left: 50px;
+margin-right: 50px;
+font-size: 24px;
 }
