@@ -5,13 +5,12 @@
 .bodyMain{
 	width: 100%;
 	max-width: 1060px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin: auto;
 }
 .center{
 	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 5px;
 }
 .begin{
 	padding-top:15px;
@@ -38,7 +37,8 @@
 	background-color:#49595B;
 }
 .nav1:visited{
-	color:#002167;
+	color:#ffffff;
+	text-decoration: bold;
 }
 .nav{ /* li */
 	text-align: center;
@@ -59,9 +59,12 @@ color:#40595B;
 .homepage{
 
 }.text{
-padding-top: 100px;
 padding-bottom: 50px;
 margin-left: 50px;
 margin-right: 50px;
 font-size: 24px;
+}
+.gif{
+height: 300px;
+width:810px;
 }
