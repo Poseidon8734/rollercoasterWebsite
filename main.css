@@ -21,25 +21,29 @@
 	list-style: none;
 }
 .nav1{ /* li a */
+<<<<<<< HEAD
 	background-color:#626c76;
+=======
+	background-color:#6F9196;
+>>>>>>> origin/master
 	display:block;
-	border: 1px solid #1F325E;
+	border: 1px solid #6F9196;
 	padding: 10px 0;
-	box-shadow: inset 0 1px 0 #8F9CB9, inset 0 -1px 0 #8F9CB9, 0 0 15px rgba(0,0,0,.25);
+	box-shadow: inset 0 1px 0 #49595B, inset 0 -1px 0 #49595B, 0 0 15px rgba(0,0,0,.25);
 	text-decoration: none;
-	color:#011031;
+	color:#0C1A1C;
 	font-weight: bold ;
 }
 .nav1:hover,.nav1:focus,.nav1:active{
-	color:#ffffff;
-	background-color:#011031;
+	color:#A1C9CC;
+	background-color:#49595B;
 }
 .nav1:visited{
 	
 }
 .nav{ /* li */
 	text-align: center;
-	width: 25%;
+	width: 20%;
 	float: left;
 }
 .barType{
@@ -50,8 +54,8 @@
 }
 
 body{
-background-color: #C6E2FF;
-color:#1F325E;
+background-color: #A1C9CC;
+color:#40595B;
 }
 .homepage{
 	margin-top:2%;
