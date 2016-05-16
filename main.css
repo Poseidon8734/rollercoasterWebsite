@@ -5,8 +5,10 @@
 .bodyMain{
 	width: 100%;
 	max-width: 1060px;
-	margin: 0 auto;
-	
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .center{
 	text-align: center;
