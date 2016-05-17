@@ -44,6 +44,10 @@
 	text-align: center;
 	width: 20%;
 	float: left;
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px;
 }
 .barType{
 
@@ -65,9 +69,15 @@ body{
 	font-size: 24px;
 }
 .gif{
+<<<<<<< Updated upstream
 	height: 300px;
 	width:810px;
 }
 .logo{
 	height:150px;
 }
+=======
+height: 300px;
+width:810px;
+}
+>>>>>>> Stashed changes
