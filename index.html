@@ -5,7 +5,6 @@
 		<title>Home | Rollercoasters</title>
 	</head>
 	<body class="bodyMain">
-	<div class="fullNav">
 		<div class="navbar">
 			<p class="barType">
 				<ul class="navb">
@@ -16,7 +15,36 @@
 					<li class="nav"> <a href="contactus.html" class ="nav1"> Contact Us </a></li>
 			</p>
 		</div>
-		</div>
+		
+		
+		
+		
+		<ul>
+  			<li><a class="active" href="index.html">Home</a></li>
+  			<li class="dropdown">
+    		<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Rollercoasters</a>
+    			<div class="dropdown-content" id="myDropdown">
+      				<a href="rollercoasters.html">Top 1-5</a>
+      				<a href="rollercoasters.html">Top 6-10</a>
+    			</div>
+  			</li>
+  			<li><a href="funfacts.html">Fun Facts</a></li>
+  			<li><a href="history.html">History</a></li>
+  			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<div class="homepage">
 			<h2 class="center">Welcome</h2>
 			<div class="text">
@@ -24,5 +52,30 @@
 			</div> 
 			<center><img src="roller.gif" class ="gif" /></center>
 		</div>
+		
+		
+		
+	<!--***DO NOT TOUCH***-->
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(e) {
+  		if (!e.target.matches('.dropbtn')) {
+
+    	var dropdowns = document.getElementsByClassName("dropdown-content");
+    		for (var d = 0; d < dropdowns.length; d++) {
+     			 var openDropdown = dropdowns[d];
+     			 if (openDropdown.classList.contains('show')) {
+      			  openDropdown.classList.remove('show');
+     			 }
+   		 	}
+  		}
+	}
+	</script>
 	</body>
 </html>
