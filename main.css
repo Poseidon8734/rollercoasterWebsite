@@ -53,18 +53,21 @@
 }
 
 body{
-background-color: #A1C9CC;
-color:#40595B;
+	background-color: #A1C9CC;
+	color:#40595B;
 }
 .homepage{
 
 }.text{
-padding-bottom: 50px;
-margin-left: 50px;
-margin-right: 50px;
-font-size: 24px;
+	padding-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 24px;
 }
 .gif{
-height: 300px;
-width:810px;
+	height: 300px;
+	width:810px;
+}
+.logo{
+	height:150px;
 }
