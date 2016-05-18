@@ -149,10 +149,11 @@ li.dropdown {
 }
 
 .ffimages{
+	border-radius:50%;
 	width:250px;
 }
 .ffimages:hover{
-        border-radius:50%;
+        border-radius:0%;
 }
 
 .ffcolumn {
