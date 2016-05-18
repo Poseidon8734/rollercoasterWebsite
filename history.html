@@ -44,5 +44,30 @@
 				<p>Click on the image of the Mauch Chunk gravity railroad to learn more about it</p>
 				<a href="http://entertainmentdesigner.com/history-of-theme-parks/the-history-of-roller-coasters-the-mauch-chunk-gravity-railway/" target="_blank"><center><img src="http://freepages.history.rootsweb.ancestry.com/~carrleith/images/switchback2.jpg" width= "500" align="middle"/></center></a>
 				
+				
+				
+				
+				<!--***DO NOT TOUCH***-->
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(e) {
+  		if (!e.target.matches('.dropbtn')) {
+
+    	var dropdowns = document.getElementsByClassName("dropdown-content");
+    		for (var d = 0; d < dropdowns.length; d++) {
+     			 var openDropdown = dropdowns[d];
+     			 if (openDropdown.classList.contains('show')) {
+      			  openDropdown.classList.remove('show');
+     			 }
+   		 	}
+  		}
+	}
+	</script>
 	</body>
 </html>
