@@ -151,6 +151,9 @@ li.dropdown {
 .ffimages{
 	width:250px;
 }
+.ffimages:hover{
+        border-radius:50%;
+}
 
 .ffcolumn {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
