@@ -232,3 +232,14 @@ li.dropdown {
 	/*text-shadow:0.2px 0.3px 0.3px #000;*/
 	font-size:22px;
 }
+.footer{
+width:100%;
+background-color::#6F9196;
+margin-top:120px;
+margin-bottom:20px;
+}
+.footer p{
+padding-top:5px;
+padding-bottom:5px;
+text-align:center;
+}
