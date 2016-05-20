@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" type="image/vnd.microsoft.icon"
+     	href="http://example.com/favicon.ico" />
 		<link rel= "stylesheet" type = "text/css" href="main.css" />
 		<title>Home | Rollercoasters</title>
 	</head>
@@ -46,5 +48,27 @@
 		<div class="footer">
 		<p> 651-327-4621 - Rollercoaster Website - Copyright 2016 </p>
 		</div>
+		<!--***DO NOT TOUCH***-->
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(e) {
+  		if (!e.target.matches('.dropbtn')) {
+
+    	var dropdowns = document.getElementsByClassName("dropdown-content");
+    		for (var d = 0; d < dropdowns.length; d++) {
+     			 var openDropdown = dropdowns[d];
+     			 if (openDropdown.classList.contains('show')) {
+      			  openDropdown.classList.remove('show');
+     			 }
+   		 	}
+  		}
+	}
+	</script>
 	</body>
 </html>
