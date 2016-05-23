@@ -24,13 +24,18 @@
 .nav1{ /* li a */
 	background-color:#6F9196;
 	display:block;
-	border: 1px solid #6F9196;
+	/*border: 1px solid #6F9196;*/
 	padding: 10px 0;
-	box-shadow: inset 0 1px 0 #49595B, inset 0 -1px 0 #49595B, 0 0 15px rgba(0,0,0,.25);
+	/*box-shadow: inset 0 1px 0 #49595B, inset 0 -1px 0 #49595B, 0 0 15px rgba(0,0,0,.25);*/
 	text-decoration: none;
 	color:#0C1A1C;
-	font-weight: bold ;
-	margin-top:30px;
+	font-weight: bold;
+	margin:auto;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	width:100%;
 }
 .nav1:hover,.nav1:focus,.nav1:active{
 	color:#A1C9CC;
