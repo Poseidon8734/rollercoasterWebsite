@@ -149,11 +149,11 @@ li.dropdown {
 }
 
 .ffimages{
-	border-radius:50%;
+	border-radius:0%;
 	width:250px;
 }
 .ffimages:hover{
-        border-radius:0%;
+        border-radius:50%;
 }
 
 .ffcolumn {
@@ -171,10 +171,15 @@ li.dropdown {
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
-}#feedback{
+}
+
+/* feedback on contact us page */
+#feedback{
 	position: fixed;
 	top:100px;
 	left:-362px;
+	color: white;
+	background-color:#6F9196;
 }
 #feedback form{
 	background-color:#ffffff;
@@ -190,7 +195,7 @@ li.dropdown {
 	margin-right:20px;
 	width:70px;
 	font-weight:bold;
-	color: 019AC6;
+	color: #6F9196;
 	font-size:14px;
 }
 #feedback a{
@@ -214,6 +219,7 @@ li.dropdown {
 	width:80px;
 	height:28px;
 	border:none;
+	
 
 }
 #feedback form textarea{
@@ -232,18 +238,24 @@ li.dropdown {
 	/*text-shadow:0.2px 0.3px 0.3px #000;*/
 	font-size:22px;
 }
+
+/* footer */
 .footer{
-text-align:center;
-width:90%;
-background-color:#6F9196;
-margin-top:120px;
-margin-bottom:20px;
-margin-left:auto;
-margin-right:auto;
+	text-align:center;
+	width:90%;
+	background-color:#6F9196;
+	margin-top:120px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
 }
 .footer p{
-padding-top:5px;
-padding-bottom:5px;
-text-align:center;
-color:#2d2d2d;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	color:#2d2d2d;
 }
+
+
+
+
