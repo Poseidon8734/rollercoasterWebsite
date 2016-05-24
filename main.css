@@ -262,9 +262,13 @@ li.dropdown {
 }
 .rollercoasters p{
 	text-align:center;
-	
-	font-size:30px;
-
+	text-align: left;
+	font-size:22px;
+	font-family: "Times New Roman", Times, serif;
+	margin-top:120px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
 
 
 
