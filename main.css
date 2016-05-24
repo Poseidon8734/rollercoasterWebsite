@@ -263,25 +263,25 @@ li.dropdown {
 .rollercoasters p{
 	text-align:center;
 	text-align: left;
-	font-size:24px;
+	font-size:22px;
 	font-family: "Times New Roman", Times, serif;
 	
-	margin-left:80px;
-	margin-right:80px;
+	margin-left:200px;
+	margin-right:200px;
 }
 .rollercoasters strong{
 	text-align:center;
 	text-align: center;
-	font-size:27px;
-	font-family: "Times New Roman", Times, serif;
+	font-size:25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .rollercoasters h3{
 	text-align:center;
 	text-align: left;
-	font-size:27px;
-	font-family: "Times New Roman", Times, serif;
-	margin-left:60px;
-	margin-right:60px;
+	font-size:25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-left:150px;
+	margin-right:150px;
 }
 	
 
