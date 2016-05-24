@@ -1,6 +1,7 @@
 *{
 	font-family: Oswald, Tahoma, Geneva, sans-serif;
 	color: #e1e1e1;
+	letter-spacing: 1px;
 }
 .bodyMain{
 	width: 100%;
@@ -272,6 +273,30 @@ li.dropdown {
 	margin-left:20px;
 	margin-right:20px;
 }
+.rollercoasters p{
+	text-align:center;
+	text-align: left;
+	font-size:22px;
+	font-family: "Times New Roman", Times, serif;
+	
+	margin-left:200px;
+	margin-right:200px;
+}
+.rollercoasters strong{
+	text-align:center;
+	text-align: center;
+	font-size:25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.rollercoasters h3{
+	text-align:center;
+	text-align: left;
+	font-size:25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-left:150px;
+	margin-right:150px;
+}
+	
 
 
 
