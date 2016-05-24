@@ -266,8 +266,16 @@ li.dropdown {
 	font-size:22px;
 	font-family: "Times New Roman", Times, serif;
 	
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.rollercoasters strong{
+	text-align:center;
+	text-align: left;
+	font-size:28px;
+	font-family: "Times New Roman", Times, serif;
+	
+	
 
 
 
