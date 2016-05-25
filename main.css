@@ -1,7 +1,7 @@
 *{
 	font-family: Oswald, Tahoma, Geneva, sans-serif;
 	color: #e1e1e1;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 }
 .bodyMain{
 	width: 100%;
@@ -310,7 +310,3 @@ li.dropdown {
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
 }	
-
-
-
-
