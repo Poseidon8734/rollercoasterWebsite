@@ -298,7 +298,18 @@ li.dropdown {
 	margin-left:150px;
 	margin-right:150px;
 }
-	
+.ffimage{
+	border-radius:100%;
+	width:1000px;
+}
+.ffimage:hover{
+         box-shadow:
+                4px 4px #577baa,
+                6px 6px #577baa,
+                8px 8px #577baa;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}	
 
 
 
