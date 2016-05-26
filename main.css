@@ -291,7 +291,7 @@ li.dropdown {
 	text-align:center;
 	text-align: left;
 	font-size:22px;
-	font-family: Oswald, Tahoma, Geneva, sans-serif;
+	font-family: 'Dosis', Oswald, Tahoma, Geneva, sans-serif;
 	
 	margin-left:200px;
 	margin-right:200px;
@@ -300,13 +300,13 @@ li.dropdown {
 	text-align:center;
 	text-align: center;
 	font-size:25px;
-	font-family:Oswald, Tahoma, Geneva, sans-serif;
+	font-family:'Dosis', Oswald, Tahoma, Geneva, sans-serif;
 }
 .rollercoasters h3{
 	text-align:center;
 	text-align: left;
 	font-size:25px;
-	font-family:Oswald, Tahoma, Geneva, sans-serif;
+	font-family:'Dosis', Oswald, Tahoma, Geneva, sans-serif;
 	margin-left:150px;
 	margin-right:150px;
 }
