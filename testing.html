@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+		<link rel= "stylesheet" type = "text/css" href="main.css" />
+		<title>Rollercoasters | Rollercoasters</title>
+	</head>
+	<body>
+<div id="scroller">
+		<ul>
+  			<li><a class="active" href="index.html">Home</a></li>
+  			<li class="dropdown">
+    		<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Rollercoasters</a>
+    			<div class="dropdown-content" id="myDropdown">
+      				<a href="six-ten.html">Top 6-10</a>
+      				<a href="one-five.html">Top 1-5</a>
+    			</div>
+  			</li>
+  			<li><a href="funfacts.html">Fun Facts</a></li>
+  			<li><a href="history.html">History</a></li>
+  			<li><a href="contactus.html">Contact Us</a></li>
+		</ul></div>
+		
+		<script>
+		$(window).scroll(function () {
+   			 if ($(window).scrollTop() > 100) {
+       		$('#scroller').css('top', $(window).scrollTop());
+   		 }
+		}
+		);
+
+	</script>
+	
+		
+	</script>
+	</body>
+</html>
