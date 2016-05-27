@@ -105,11 +105,15 @@ body{
 
 
 /*dont touch*/
-.down{
+.main-nav{
 	padding-top:170px;
 	z-index: 150;
 }
-
+.main-nav-scrolled{
+	position:fixed;
+	top:0;
+	width: 100%;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -441,5 +445,7 @@ li.dropdown {
     
 }
 
-
+.everything{
+	background-color:white;
+}
 
