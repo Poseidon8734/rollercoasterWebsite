@@ -46,7 +46,7 @@
 }
 .nav1:hover,.nav1:focus,.nav1:active{
 	color:#555555;
-	background-color:#009fff;
+	background-color:#4798d4;
 	-webkit-filter: drop-shadow(4px 4px 4px white);
 }
 .nav1:visited{
@@ -125,7 +125,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #009fff;
+    background-color: #4798d4;
     color: #000000;
 }
 
@@ -152,7 +152,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: #009fff;
+	background-color: #4798d4;
 	color:#000000;
 }
 
