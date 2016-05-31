@@ -426,7 +426,8 @@ li.dropdown {
     margin: 0 0 0 -5px;
     text-align:center;
 }
-.hr{
+header{
+	background-image:url("top.jpg");
 	display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -434,9 +435,14 @@ li.dropdown {
     margin-right: auto;
     border-style: inset;
     border-width: 5px;
+<<<<<<< Updated upstream
     background-color:red;
 }
 .homepage p{
+=======
+    
+}.homepage p{
+>>>>>>> Stashed changes
 	text-align:center;
 }
 
