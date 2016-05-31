@@ -107,7 +107,7 @@ body{
 /*dont touch*/
 .main-nav{
 	padding-top:170px;
-	z-index: 150;
+	
 }
 .main-nav-scrolled{
 	position:fixed;
@@ -126,7 +126,7 @@ ul {
 	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 	box-shadow: 4px 4px 5px #888888;
     /*box-shadow: inset 0 1px 0 #49595B, inset 0 -1px 0 #49595B, 0 0 15px rgba(0,0,0,.25);*/
-   	position:relative;
+
    	
    	
 }
@@ -154,7 +154,7 @@ li.dropdown {
 }
 
 .dropdown-content {
-    display: none;
+  
     
     position: absolute;
     background-color: #eeeeee;
@@ -176,7 +176,9 @@ li.dropdown {
 	color:#000000;
 }
 
-.show {display:block;}
+.show {
+	display:block;
+}
 
 /*makes image shrink when hovered over it*/
 .shrink:hover
@@ -373,79 +375,4 @@ li.dropdown {
 
 
 
-
-/*top part*/
-.subtitle {
-    margin-bottom: 20px;
-    color: rgba(243, 243, 243, 1);
-    font-size: 25px;
-    font-weight: normal;
-    font-variant: normal;
-    text-align: center;
-    line-height: 1.2em;
-    padding-left: 270px;
-}
-@media (max-width:980px) {
-    .subtitle {
-        padding-left: 0;
-    }
-}
-
-@media (max-width:768px) {
-    .subtitle {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width:480px) {
-    #brand, .brand, .logo {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .subtitle {
-        margin-bottom: 10px;
-        font-size: 1.5em;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-.brand {
-    display: block;
-    
-    margin-left: -20px;
-    font-size: 45px;
-    font-weight: 200;
-    color: #777;
-    text-shadow: 0 1px 0 #fff;
-    color: #999;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 0 0 0 -5px;
-    text-align:center;
-}
-.hr{
-	display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 5px;
-    background-color:red;
-}.homepage p{
-	text-align:center;
-}
-.fixed{
- 	position:fixed;
-    top:0;
-    width:100%;
-    
-}
-
-.everything{
-	background-color:white;
-}
 
