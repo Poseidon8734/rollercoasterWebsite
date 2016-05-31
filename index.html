@@ -7,6 +7,10 @@
      	href="http://example.com/favicon.ico" />
 		<link rel= "stylesheet" type = "text/css" href="main.css" />
 		<title>Home | Rollercoasters</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+
 	</head>
 	<body>
 	<!-- **old nav bar**
@@ -25,7 +29,11 @@
 		
 		-->
 		
-
+<div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="https://www.cedarpoint.com/images/rides/millennium_vista1.jpg" align="middle"/>
+  <img class="mySlides" src="http://favim.com/orig/201105/14/awesome-busch-gardens-coaster-photography-roller-rollercoaster-Favim.com-44808.jpg"align="middle" />
+  <img class="mySlides" src="http://nerdist.com/wp-content/uploads/2016/04/Short-Film-Suicide-Coaster-Feature-Image-04042016.jpg"align="middle"/>
+</div>
 
 		
 		<ul>
@@ -77,6 +85,21 @@
   		}
 	}
 
-	</script>
+	
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 	</body>
 </html>

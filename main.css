@@ -437,4 +437,9 @@ li.dropdown {
 	color:white;
 	background-color:black;
 }
+.mySlides {
 
+display:none;
+height: 250px; 
+width: 150%;
+}
