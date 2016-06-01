@@ -384,47 +384,22 @@ li.dropdown {
     text-align: center;
     line-height: 1.2em;
     padding-left: 270px;
-}
-@media (max-width:980px) {
-    .subtitle {
-        padding-left: 0;
-    }
-}
-
-@media (max-width:768px) {
-    .subtitle {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width:480px) {
-    #brand, .brand, .logo {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .subtitle {
-        margin-bottom: 10px;
-        font-size: 1.5em;
-        padding-left: 0;
-        padding-right: 0;
-    }
+    text-shadow: 0 3px 0 #d3d3d3;
+    text-shadow: 0 -3px 0 rgba(0, 0, 0, 0.25);
 }
 .brand {
     display: block;
-    
     margin-left: -20px;
     font-size: 45px;
     font-weight: 200;
-    color: #777;
-    text-shadow: 0 1px 0 #fff;
-    color: #999;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    padding-right: 10px;
+    color: white;
+    text-shadow: 0 3px 0 #d3d3d3;
+    text-shadow: 0 -3px 0 rgba(0, 0, 0, 0.25);
     padding-left: 10px;
+    padding-top: 10px;
     margin: 0 0 0 -5px;
     text-align:center;
+    padding-right:350px;
 }
 header{
 	background-image:url("top.jpg");
@@ -434,12 +409,10 @@ header{
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 5px;
-    background-color:red;
+    border-width: 3px;
+    background-repeat:no-repeat;
 }
 .homepage p{
-    
-}.homepage p{
 	text-align:center;
 }
 
@@ -455,4 +428,97 @@ header{
 display:none;
 height: 250px; 
 width: 135%;
+}
+
+
+/*show - hide*/
+label { 
+	position: absolute; 
+
+}
+
+input#show, input#hide {
+    display:none;
+}
+
+span#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+input#show:checked ~ .show:before {
+    content: ""
+}
+input#show:checked ~ .hide:before {
+    content: "Hide"
+}
+
+input#hide:checked ~ .hide:before {
+    content: ""
+}
+input#hide:checked ~ .show:before { /*way to not have to make one for each number?*/
+    content: "Number 10"
+}
+input#show:checked ~ span#content {
+    opacity: 1;
+    font-size: 100%;
+    height: auto;
+}
+input#hide:checked ~ span#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+#show1 { position: absolute; top:20px; left:0}
+#content1 {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+#show1:before {
+    content: "Nuber 10"
+}
+#show1:active.show1:before {
+    content: "Hide"
+}
+#show1:active ~ span#content1 {
+    opacity: 1;
+    font-size: 100%;
+    height: auto;
+}
+
+#show2 { position: absolute; top:40px; left:0}
+#content2 {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+#show2:before {
+    content: "Number 10"
+}
+#show2:hover.show2:before {
+    content: "Hide"
+}
+#show2:hover ~ span#content2 {
+    opacity: 1;
+    font-size: 100%;
+    height: auto;
 }
