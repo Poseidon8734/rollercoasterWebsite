@@ -501,7 +501,11 @@ input#hide:checked ~ span#content {
     height: auto;
 }
 
-#show2 { position: absolute; top:40px; left:0}
+#show2 { 
+	position: absolute; 
+	top:40px; 
+	left:0;
+}
 #content2 {
     display: block;
     -webkit-transition: opacity 1s ease-out;
