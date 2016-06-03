@@ -541,6 +541,32 @@ input#hide:checked ~ span#content {
 	color: #z;
 
 }
+.all{
+	max-width:100%; 
+  	max-height:100%;
+	margin:auto;
+  	display:block;
+  	background-size:contain;
+  	width:100%;
+  	height:auto;
+}
+.OpeningImage {
+  font-size: 0;
+  text-align: center;
+  width: 200px;  /* Container's dimensions */
+  height: 150px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.all {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
 
 
 
