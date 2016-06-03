@@ -550,23 +550,54 @@ input#hide:checked ~ span#content {
   	width:100%;
   	height:auto;
 }
-.OpeningImage {
-  font-size: 0;
-  text-align: center;
-  width: 200px;  /* Container's dimensions */
-  height: 150px;
-}
-img {
-  display: inline-block;
-  vertical-align: middle;
-  max-height: 100%;
-  max-width: 100%;
-}
 .all {
-  display: inline-block;
-  vertical-align: middle;
-  height: 150px;
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat:no-repeat;
+    -webkit-animation: fadein 3s;
 }
+.all a{
+	text-decoration:none;
+}
+.all p{
+	background-color:none;
+	clear:left;
+	text-align:center;
+}
+.welcome{
+	font-size:95px;
+	margin-top:15%;
+	font-weight:bold;
+}
+.button{
+	background-color:#00a1f0;
+	margin-left:45%;
+	margin-right:45%;
+	
+}.button p{
+	color:white;
+	font-weight:bold;
+	font-size: 50px;
+	margin-top:1.5%;
+}.button p:hover{
+	color:black;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration:none;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
 
 
 
