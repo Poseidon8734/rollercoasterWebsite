@@ -571,6 +571,7 @@ input#hide:checked ~ span#content {
 	font-weight:bold;
 	-webkit-animation: fadein1 3s;
 	margin-top:15%;
+	padding-bottom:0px;
 }
 .button{
 	background-color:#00a1f0;
