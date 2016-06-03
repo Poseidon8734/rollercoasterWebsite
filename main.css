@@ -577,17 +577,17 @@ input#hide:checked ~ span#content {
 	margin-left:45%;
 	margin-right:45%;
 	-webkit-animation: fadein2 3s;
+	margin-top:0%;
 }.button p{
-	color:black;
+	color:white;
 	font-weight:bold;
 	font-size: 50px;
-	margin-top:1.5%;
+	margin-top:0%;
 	-webkit-animation: fadein2 3s;
 }.button p:hover{
-	color:white;
+	color:black;
 	-webkit-transition: all 0.5s ease;
     text-decoration:none;
-    background-color:#004c72;
 }
 @-webkit-keyframes fadein1 {
     from{ 
@@ -595,7 +595,7 @@ input#hide:checked ~ span#content {
     	opacity: 0; 
     	}
     to{
-    	c
+		margin-top:15%;
     	opacity: 1;
     	}
 }
@@ -605,7 +605,7 @@ input#hide:checked ~ span#content {
     	opacity: 0; 
     	}
     to{
-    	margin-top:1.5%;
+    	margin-top:0%;
     	opacity: 1;
     	}
 }
